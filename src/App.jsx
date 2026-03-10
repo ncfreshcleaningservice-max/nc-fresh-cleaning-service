@@ -401,60 +401,60 @@ export default function NCFreshCleaningServiceWebsite() {
         </div>
       </section>
 
-      <section className="border-t border-sky-100 bg-slate-50">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Reviews</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
-              What clients are saying
-            </h2>
-            <p className="mt-4 text-lg text-slate-600">
-               Client feedback reflects the consistency, detail, and professionalism behind every service provided.
-            </p>           
-            >
-          </div>
-          
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {reviews.map((review) => (
-              <div
-                key={review.name}
-                className="rounded-[1.75rem] border border-white bg-white p-6 shadow-lg shadow-slate-100 ring-1 ring-slate-100"
-              >
-                <div className="mb-4 flex items-center gap-2 text-amber-500">★★★★★</div>
-                <p className="text-lg font-semibold tracking-tight text-slate-950">{review.name}</p>
-                <p className="mt-3 leading-7 text-slate-600">“{review.text}”</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href={googleBusinessProfileLink}
-              className="inline-flex rounded-2xl border border-slate-200 bg-white px-6 py-3 font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
-            >
-              View Google Business Profile
-            </a>
-            <a
-              href={googleReviewLink}
-              className="inline-flex rounded-2xl border border-sky-200 bg-white px-6 py-3 font-semibold text-sky-700 shadow-sm transition hover:bg-sky-50"
-            >
-              Leave a Google Review
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex rounded-2xl bg-gradient-to-r from-sky-500 to-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-sky-200 transition hover:-translate-y-0.5"
-            >
-              Ask for a Quote Today
-            </a>
-            <a
-              href={emailLink}
-              className="inline-flex rounded-2xl border border-amber-200 bg-amber-50 px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-100"
-            >
-              Email for Booking
-            </a>
-          </div>
-        </div>
-      </section>
+      
+             <section className="border-t border-sky-100 bg-slate-50">
+  <div className="mx-auto max-w-7xl px-6 py-20">
+    <div className="max-w-2xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Reviews</p>
+      <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+        What clients appreciate most
+      </h2>
+      <p className="mt-4 text-lg text-slate-600">
+        Client feedback reflects the consistency, detail, and professionalism behind every service provided.
+      </p>
+    </div>
 
+    <div className="mt-10 grid gap-6 md:grid-cols-3">
+      {reviews.map((review) => (
+        <div
+          key={review.name}
+          className="rounded-[1.75rem] border border-white bg-white p-6 shadow-lg shadow-slate-100 ring-1 ring-slate-100"
+        >
+          <div className="mb-4 flex items-center gap-2 text-amber-500">★★★★★</div>
+          <p className="text-lg font-semibold tracking-tight text-slate-950">{review.name}</p>
+          <p className="mt-3 leading-7 text-slate-600">“{review.text}”</p>
+        </div>
+      ))}
+    </div>
+
+    <div className="mt-8 flex flex-wrap gap-4">
+      <a
+        href={googleBusinessProfileLink}
+        className="inline-flex rounded-2xl border border-slate-200 bg-white px-6 py-3 font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
+      >
+        View Google Business Profile
+      </a>
+      <a
+        href={googleReviewLink}
+        className="inline-flex rounded-2xl border border-sky-200 bg-white px-6 py-3 font-semibold text-sky-700 shadow-sm transition hover:bg-sky-50"
+      >
+        Leave a Google Review
+      </a>
+      <a
+        href="#contact"
+        className="inline-flex rounded-2xl bg-gradient-to-r from-sky-500 to-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-sky-200 transition hover:-translate-y-0.5"
+      >
+        Ask for a Quote Today
+      </a>
+      <a
+        href={emailLink}
+        className="inline-flex rounded-2xl border border-amber-200 bg-amber-50 px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-100"
+      >
+        Email for Booking
+      </a>
+    </div>
+  </div>
+</section>
       <section id="contact" className="border-t border-sky-100 bg-slate-950 text-white">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-[1fr_.95fr] md:items-center">
           <div>
