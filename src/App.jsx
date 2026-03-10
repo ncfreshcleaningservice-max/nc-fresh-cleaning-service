@@ -139,7 +139,7 @@ export default function NCFreshCleaningServiceWebsite() {
             <img
               src={logoUrl}
               alt="NC Fresh Cleaning Service logo"
-              className="h-24 w-24 rounded-full border-2 border-sky-100 object-cover shadow-md"            />
+              className="h-24.5 w-24.5 rounded-full border-2 border-sky-100 object-cover shadow-md"            />
             <div>
               <p className="text-xl font-bold tracking-tight text-slate-950">NC Fresh Cleaning Service</p>
               <p className="text-sm text-sky-700">Freshen up your space</p>
