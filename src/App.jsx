@@ -3,7 +3,8 @@ export default function NCFreshCleaningServiceWebsite() {
   const phoneLink = "tel:2095181069";
   const emailLink = "mailto:ncfreshcleaningservice@gmail.com";
   const googleBusinessProfileLink = "https://maps.app.goo.gl/3LraCcKQYFmGFZR16";
-  const googleReviewLink = "https://g.page/r/CYypHO7loCj2EAE/review";  const logoUrl = "/logo.jpg";
+  const googleReviewLink = "https://g.page/r/CYypHO7loCj2EAE/review"; 
+  const logoUrl = "/logo.jpg";
 
   const featuredImage =
     "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=80";
@@ -408,31 +409,11 @@ export default function NCFreshCleaningServiceWebsite() {
               What clients are saying
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Displaying reviews builds trust fast. This section is now set up so you can plug in your real Google Business Profile link and your real Google review link as soon as you have them.
-            </p>
-            <div className="mt-6 rounded-[1.5rem] border border-sky-100 bg-white p-5 shadow-sm">
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Google setup placeholders</p>
-              <div className="mt-4 space-y-3 text-sm text-slate-600">
-                <div className="rounded-2xl bg-sky-50 p-4">
-                  <p className="font-semibold text-slate-900">Business Profile Link</p>
-                  <p className="mt-1 break-all">Replace <span className="font-semibold">googleBusinessProfileLink</span> with your real Google Business Profile URL.</p>
-                </div>
-                <div className="rounded-2xl bg-amber-50 p-4">
-                  <p className="font-semibold text-slate-900">Direct Review Link</p>
-                  <p className="mt-1 break-all">Replace <span className="font-semibold">googleReviewLink</span> with your real Google review URL or Place ID link.</p>
-                </div>
-                <div className="rounded-2xl bg-blue-50 p-4">
-                  <p className="font-semibold text-slate-900">Live Review Widget</p>
-                  <p className="mt-1">Later, you can swap the sample review cards below for a live Google review widget once the site is published.</p>
-                </div>
-              </div>
-            </div>
+               Client feedback reflects the consistency, detail, and professionalism behind every service provided.
+            </p>           
+            >
           </div>
-          <div className="mt-6 flex flex-wrap gap-3">
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-medium text-sky-700 shadow-sm">Google-ready listing</span>
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-medium text-sky-700 shadow-sm">Review collection enabled</span>
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-medium text-sky-700 shadow-sm">SEO-friendly content</span>
-          </div>
+          
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {reviews.map((review) => (
               <div
