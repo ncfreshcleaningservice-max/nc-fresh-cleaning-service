@@ -2,9 +2,8 @@ export default function NCFreshCleaningServiceWebsite() {
   const textQuoteLink = "sms:2095181069?body=Hi%20NC%20Fresh%20Cleaning%20Service%2C%20I%E2%80%99d%20like%20a%20quote.";
   const phoneLink = "tel:2095181069";
   const emailLink = "mailto:ncfreshcleaningservice@gmail.com";
-  const googleBusinessProfileLink = https://maps.app.goo.gl/3LraCcKQYFmGFZR16
-  const googleReviewLink = https://g.page/r/CYypHO7loCj2EAE/review
-  const logoUrl = "/logo.jpg";
+  const googleBusinessProfileLink = "https://maps.app.goo.gl/3LraCcKQYFmGFZR16";
+  const googleReviewLink = "https://g.page/r/CYypHO7loCj2EAE/review";  const logoUrl = "/logo.jpg";
 
   const featuredImage =
     "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=80";
@@ -242,7 +241,8 @@ export default function NCFreshCleaningServiceWebsite() {
                     <p className="text-xs text-slate-500">Premium local service</p>
                   </div>
                 </div>
-                <div className="absolute bottom-5 left-5 right-5 rounded-[1.75rem] bg-slate-950/70 p-5 shadow-xl backdrop-blur-md">                  <div className="grid gap-4 sm:grid-cols-3">
+                <div className="absolute bottom-5 left-5 right-5 rounded-[1.75rem] bg-slate-950/70 p-5 shadow-xl backdrop-blur-md">                
+                  <div className="grid gap-4 sm:grid-cols-3">
                     {luxuryStats.map((stat) => (
                       <div key={stat.label}>
                         <p className="text-2xl font-bold tracking-tight text-white">{stat.value}</p>          
@@ -550,8 +550,8 @@ export default function NCFreshCleaningServiceWebsite() {
         </div>
       </section>
 
-      <footer className="border-t border-white/10 bg-slate-950 px-6 py-8 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 md:flex-row">
+     <footer className="border-t border-white/10 bg-gradient-to-r from-slate-950 via-slate-900 to-sky-950 px-6 py-10 text-white">       
+       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 md:flex-row">
           <div className="flex items-center gap-3">
             <img
               src={logoUrl}
@@ -560,11 +560,11 @@ export default function NCFreshCleaningServiceWebsite() {
             />
             <div>
               <p className="font-semibold">NC Fresh Cleaning Service</p>
-              <p className="text-sm text-slate-400">Freshen up your space</p>
+              <p className="text-base font-medium text-sky-200">Freshen up your space</p>        
             </div>
           </div>
-          <p className="text-sm text-slate-400">Serving communities throughout the 209 and 916 areas • (209) 518-1069</p>
-        </div>
+         <p className="text-base font-medium text-sky-100">Serving communities throughout the 209 and 916 areas • (209) 518-1069</p>
+       </div>
       </footer>
     </div>
   );
