@@ -139,8 +139,7 @@ export default function NCFreshCleaningServiceWebsite() {
             <img
               src={logoUrl}
               alt="NC Fresh Cleaning Service logo"
-              className="h-14 w-14 rounded-full border-2 border-sky-100 object-cover shadow-md"
-            />
+              className="h-16 w-16 rounded-full border-2 border-sky-100 object-cover shadow-md"            />
             <div>
               <p className="text-xl font-bold tracking-tight text-slate-950">NC Fresh Cleaning Service</p>
               <p className="text-sm text-sky-700">Freshen up your space</p>
@@ -234,8 +233,8 @@ export default function NCFreshCleaningServiceWebsite() {
                   <img
                     src={logoUrl}
                     alt="NC Fresh Cleaning Service logo"
-                    className="h-14 w-14 rounded-full border border-sky-100 object-cover"
-                  />
+                    className="h-16 w-16 rounded-full border border-sky-100 object-cover"               
+                    />
                   <div>
                     <p className="text-sm font-semibold text-slate-950">NC Fresh Cleaning Service</p>
                     <p className="text-xs text-slate-500">Premium local service</p>
@@ -556,8 +555,8 @@ export default function NCFreshCleaningServiceWebsite() {
             <img
               src={logoUrl}
               alt="NC Fresh Cleaning Service logo"
-              className="h-12 w-12 rounded-full border border-white/20 object-cover"
-            />
+              className="h-16 w-16 rounded-full border border-white/20 object-cover"           
+              />
             <div>
               <p className="font-semibold">NC Fresh Cleaning Service</p>
               <p className="text-base font-medium text-sky-200">Freshen up your space</p>        
