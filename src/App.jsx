@@ -8,21 +8,24 @@ export default function NCFreshCleaningServiceWebsite() {
   const featuredImage =
     "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=80";
 
-  const reviews = [
-    {
-      name: "Happy Homeowner",
-      text: "Professional, dependable, and detailed. My home felt fresh, clean, and cared for the moment I walked in.",
-    },
-    {
-      name: "Property Manager",
-      text: "Great communication and solid results on cleanup and turnover work. Easy to work with and very reliable.",
-    },
-    {
-      name: "Repeat Client",
-      text: "Very thorough work and great attention to detail. I felt comfortable trusting them in my home and would absolutely book again.",
-    },
-  ];
-
+ const reviews = [
+  {
+    name: "Mariah – Lodi",
+    text: "Exceptional attention to detail, dependable communication, and a level of care that immediately stood out. My home looked refreshed, polished, and truly well cared for.",
+  },
+  {
+    name: "Jessica – Elk Grove",
+    text: "Professional, trustworthy, and consistent from start to finish. The quality of work exceeded expectations, and every detail was handled with care.",
+  },
+  {
+    name: "Andy – Property Manager",
+    text: "Reliable service, strong communication, and excellent presentation on every project. A dependable choice for property turnovers and detailed cleanups.",
+  },
+  {
+  name: "Sandra – Stockton",
+  text: "The move-out cleaning was outstanding. Every room looked ready for showing, and the attention to detail made a huge difference."
+ },
+];
   const galleryItems = [
     {
       title: "Kitchen Deep Cleaning",
