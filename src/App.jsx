@@ -2,8 +2,8 @@ export default function NCFreshCleaningServiceWebsite() {
   const textQuoteLink = "sms:2095181069?body=Hi%20NC%20Fresh%20Cleaning%20Service%2C%20I%E2%80%99d%20like%20a%20quote.";
   const phoneLink = "tel:2095181069";
   const emailLink = "mailto:ncfreshcleaningservice@gmail.com";
-  const googleBusinessProfileLink = "https://www.google.com/maps/place/?q=place_id:YOUR_GOOGLE_PLACE_ID";
-  const googleReviewLink = "https://search.google.com/local/writereview?placeid=YOUR_GOOGLE_PLACE_ID";
+  const googleBusinessProfileLink = https://maps.app.goo.gl/3LraCcKQYFmGFZR16
+  const googleReviewLink = https://g.page/r/CYypHO7loCj2EAE/review
   const logoUrl = "/logo.jpg";
 
   const featuredImage =
@@ -242,12 +242,11 @@ export default function NCFreshCleaningServiceWebsite() {
                     <p className="text-xs text-slate-500">Premium local service</p>
                   </div>
                 </div>
-                <div className="absolute bottom-5 left-5 right-5 rounded-[1.75rem] bg-white/92 p-5 shadow-xl backdrop-blur">
-                  <div className="grid gap-4 sm:grid-cols-3">
+                <div className="absolute bottom-5 left-5 right-5 rounded-[1.75rem] bg-slate-950/70 p-5 shadow-xl backdrop-blur-md">                  <div className="grid gap-4 sm:grid-cols-3">
                     {luxuryStats.map((stat) => (
                       <div key={stat.label}>
-                        <p className="text-2xl font-bold tracking-tight text-slate-950">{stat.value}</p>
-                        <p className="mt-1 text-sm text-slate-600">{stat.label}</p>
+                        <p className="text-2xl font-bold tracking-tight text-white">{stat.value}</p>          
+                        <p className="mt-1 text-sm text-sky-100">{stat.label}</p>     
                       </div>
                     ))}
                   </div>
