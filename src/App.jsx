@@ -11,8 +11,13 @@ export default function NCFreshCleaningServiceWebsite() {
 
  const reviews = [
   {
-    name: "Mariah – Lodi",
-    text: "Exceptional attention to detail, dependable communication, and a level of care that immediately stood out. My home looked refreshed, polished, and truly well cared for.",
+     name: "Jessica – Lodi",
+    text: "I reached out to Marcos to do some deep cleaning on the tile in my father's home as we were preparing it for sale. Not only did he do an amazing job and getting really stubborn stains off the tile but he walked the house with me and we discussed other maintenance items I was concerned about for sale prep and Marcos set up a plan to get all of that work done for me! All of his work is meticulous and thorough. What was even better is I was coordinating all of this work remotely from Washington and he maintained excellent communication throughout the whole process. He was great about sending my pictures and videos showcasing his progress.
+
+I would hire Marcos again in a heartbeat. My only regret is that he's in California so he can't help me with my properties in Washington!",
+  },
+  {    name: "Jacob – Lodi",
+    text: "Very professional, worked fast and effective cleaning up my backyard and bathroom. It's been years since they were this clean.",
   },
   {
     name: "Jessica – Elk Grove",
@@ -23,8 +28,8 @@ export default function NCFreshCleaningServiceWebsite() {
     text: "Reliable service, strong communication, and excellent presentation on every project. A dependable choice for property turnovers and detailed cleanups.",
   },
   {
-  name: "Sandra – Stockton",
-  text: "The move-out cleaning was outstanding. Every room looked ready for showing, and the attention to detail made a huge difference."
+  name: "Jason – Stockton",
+  text: "Best experience i have had in terms of price, timeliness, cleanliness, and professionalism."
  },
 ];
   const galleryItems = [
