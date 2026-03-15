@@ -11,13 +11,16 @@ export default function NCFreshCleaningServiceWebsite() {
 
  const reviews = [
   {
-     name: "Jessica – Lodi",
-    text: "I reached out to Marcos to do some deep cleaning on the tile in my father's home as we were preparing it for sale. Not only did he do an amazing job and getting really stubborn stains off the tile but he walked the house with me and we discussed other maintenance items I was concerned about for sale prep and Marcos set up a plan to get all of that work done for me! All of his work is meticulous and thorough. What was even better is I was coordinating all of this work remotely from Washington and he maintained excellent communication throughout the whole process. He was great about sending my pictures and videos showcasing his progress.
+    name: "Jessica – Lodi",
+    text: `I reached out to Marcos to do some deep cleaning on the tile in my father's home as we were preparing it for sale. Not only did he do an amazing job getting really stubborn stains off the tile, but he also walked the house with me and we discussed other maintenance items I was concerned about for sale prep. Marcos then set up a plan to get all of that work done for me.
 
-I would hire Marcos again in a heartbeat. My only regret is that he's in California so he can't help me with my properties in Washington!",
+All of his work is meticulous and thorough. What was even better is I was coordinating all of this work remotely from Washington, and he maintained excellent communication throughout the whole process. He was great about sending me pictures and videos showcasing his progress.
+
+I would hire Marcos again in a heartbeat. My only regret is that he's in California, so he can't help me with my properties in Washington!`,
   },
-  {    name: "Jacob – Lodi",
-    text: "Very professional, worked fast and effective cleaning up my backyard and bathroom. It's been years since they were this clean.",
+  {
+    name: "Jacob – Lodi",
+    text: "Very professional, worked fast and effectively cleaning up my backyard and bathroom. It's been years since they were this clean.",
   },
   {
     name: "Jessica – Elk Grove",
@@ -28,9 +31,9 @@ I would hire Marcos again in a heartbeat. My only regret is that he's in Califor
     text: "Reliable service, strong communication, and excellent presentation on every project. A dependable choice for property turnovers and detailed cleanups.",
   },
   {
-  name: "Jason – Stockton",
-  text: "Best experience i have had in terms of price, timeliness, cleanliness, and professionalism.",
- },
+    name: "Jason – Stockton",
+    text: "Best experience I have had in terms of price, timeliness, cleanliness, and professionalism.",
+  },
 ];
   const galleryItems = [
     {
@@ -528,7 +531,7 @@ I would hire Marcos again in a heartbeat. My only regret is that he's in Califor
               </div>
               <a href={googleReviewLink} className="block rounded-2xl bg-slate-50 p-4 transition hover:bg-slate-100">
                 <p className="font-semibold text-slate-700">Google Reviews</p>
-                <p className="mt-1">Connect your real Google review link here when ready.</p>
+                <p className="mt-1">Read our latest Google reviews or leave one here.</p>             
               </a>
             </div>
             <p className="mt-6 text-sm text-slate-500">
