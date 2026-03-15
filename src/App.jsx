@@ -29,7 +29,7 @@ I would hire Marcos again in a heartbeat. My only regret is that he's in Califor
   },
   {
   name: "Jason – Stockton",
-  text: "Best experience i have had in terms of price, timeliness, cleanliness, and professionalism."
+  text: "Best experience i have had in terms of price, timeliness, cleanliness, and professionalism.",
  },
 ];
   const galleryItems = [
